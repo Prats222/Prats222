@@ -1,53 +1,51 @@
 <p align="center">
-  <img src="./assets/cover-v2.png" width="100%" alt="Abstract liquid chrome artwork" />
-</p>
-
-<br>
-
-<h1 align="center">Prateek Mishra</h1>
-
-<p align="center">
-  <code>software engineer</code>&nbsp;&nbsp;·&nbsp;&nbsp;<code>automation obsessive</code>&nbsp;&nbsp;·&nbsp;&nbsp;<code>agent builder</code>
+  <img src="./assets/prats-os.svg" width="100%" alt="PRATS OS developer console" />
 </p>
 
 <p align="center">
-  <a href="https://portfolio-prateek.vercel.app/">portfolio ↗</a>&nbsp;&nbsp;&nbsp;
-  <a href="https://www.linkedin.com/in/prateek-mishra-686945243/">linkedin ↗</a>&nbsp;&nbsp;&nbsp;
-  <a href="mailto:prateekrocks107@gmail.com">email ↗</a>
+  <a href="https://portfolio-prateek.vercel.app/"><kbd>portfolio</kbd></a>&nbsp;
+  <a href="https://www.linkedin.com/in/prateek-mishra-686945243/"><kbd>linkedin</kbd></a>&nbsp;
+  <a href="mailto:prateekrocks107@gmail.com"><kbd>email</kbd></a>
 </p>
 
-<br>
+## `./active_processes`
 
-I like systems that think, tools that disappear into the workflow, and tests that catch the weird stuff. Right now, I’m exploring the space between **agentic software** and **serious automation**.
+### `PID 01` · [PratsPilot](https://github.com/Prats222/Agentic_AI_Platform) · `RUNNING`
 
-<br>
+An agentic playground where models get tools, memory, context, visual workflows, human approval gates, and enough telemetry to explain what they just did.
 
-## selected work
+`ASP.NET Core` `React` `TypeScript` `multi-provider LLMs`
 
-### 01 — [PratsPilot](https://github.com/Prats222/Agentic_AI_Platform)
+### `PID 02` · [Playwright Automation Lab](https://github.com/Prats222/playwright-framework-dotnet-react) · `64/64`
 
-A place to build and run AI agents with tools, context, visual workflows, human checkpoints, model switching, and execution telemetry.
-
-`ASP.NET Core` `React` `TypeScript` `LLM orchestration`
-
-<br>
-
-### 02 — [Playwright Automation Lab](https://github.com/Prats222/playwright-framework-dotnet-react)
-
-A deliberately over-tested React + .NET playground: **64 tests** across desktop and mobile, covering everything from deep links and themes to media, APIs, forms, accessibility, and failure artifacts.
+A React + .NET system built to be poked, prodded, resized, deep-linked, and broken by **64 desktop + mobile Playwright tests**.
 
 `Playwright` `.NET` `React` `GitHub Actions`
 
+## `./quest_log`
+
+- [x] Make agents use real tools
+- [x] Pause a workflow and ask a human
+- [x] Make browser tests survive the weird stuff
+- [x] Ship something bigger than a tutorial
+- [ ] Build the next thing worth obsessing over
+
+<details>
+<summary><code>cat stack.txt</code></summary>
 <br>
 
-## tools I reach for
+```text
+backend    C# · ASP.NET Core · SQL
+frontend   React · TypeScript · Vite
+quality    Playwright · Pytest · GitHub Actions
+shipping   Docker · Vercel · Render
+```
 
-`C#` &nbsp; `ASP.NET Core` &nbsp; `Playwright` &nbsp; `React` &nbsp; `TypeScript` &nbsp; `Python` &nbsp; `SQL` &nbsp; `Docker`
+</details>
 
 <br>
 
----
-
-<p align="center">
-  <sub>make it useful. make it reliable. make it feel good.</sub>
-</p>
+```console
+prateek@github:~$ echo $PHILOSOPHY
+make it useful. make it reliable. make it feel good.
+```
